@@ -2,12 +2,9 @@
 
 ## Description
 
-In this repository you find a Python3 implementation of my Chrome Stealer. 
-This piece of Code can be used for penetration testing !only! on your own devices!
+In this repository, you will find a Python3 implementation of my Chrome Stealer. This piece of code can be used for penetration testing !only! on your own devices!
 
-With the increasing usage of Multi-Factor-Authentication (MFA) stolen creentials become more and more unattractive for hackers. 
-To bypass MFA a more sophistcated attack called Session Hijacking gains in Poularity. With this ChromeStealer you can steal cookies 
-from Chromes encrypted storage (SQLITE database) to gain a better understanding of this relevant attack vector and how malware can make use of it. 
+With the increasing usage of Multi-Factor-Authentication (MFA) stolen credentials become more and more un-attractive for hackers. To bypass MFA, a more sophisticated attack called Session Hijacking gains in Popularity. With this Chrome Stealer, you can steal cookies from Chrome's encrypted storage (SQLite database) to gain a better understanding of this relevant attack vector and how malware can make use of it.
 
 - [X] Cookie Decryption 
 - [X] Credentials Decryption
