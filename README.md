@@ -4,12 +4,17 @@
 
 In this repository, you will find a Python3 implementation of my Chrome Stealer. This piece of code can be used for penetration testing !only! on your own devices!
 
-With the increasing usage of Multi-Factor-Authentication (MFA) stolen credentials become more and more un-attractive for hackers. To bypass MFA, a more sophisticated attack called Session Hijacking gains in Popularity. With this Chrome Stealer, you can steal cookies from Chrome's encrypted storage (SQLite database) to gain a better understanding of this relevant attack vector and how malware can make use of it.
+With the increasing usage of Multi-Factor-Authentication (MFA) stolen credentials become more and more un-attractive for hackers. To bypass MFA, a more sophisticated attack called Session Hijacking gains in Popularity. With this Chrome Stealer, you can steal cookies from Chrome's encrypted storage (SQLite database). Use this to build more advanced ChromeStealer, include it in your software or just try Session Hijacking and learn some ways for detection (e.g. Browser Fingerprinting, ...) 
+
+Pull requests are welcome - would be lovely if someone could implement a "User-Agent grabber" :)
+
 
 - [X] Cookie Decryption 
 - [X] Credentials Decryption
 - [X] Result as JSON allows easy data transmission over e.g. HTTPS
 - [X] Support for: Chrome, ChromeDev, Chromium, Canary (Version 80+)
+- [X] Chrome Multi-Profile Support
+- [ ] Grab Browser Details (User-Agent, Fingerprint, ...)
 - [ ] Credit Card Decryption
 - [ ] MacOS, Linux implementation
 
